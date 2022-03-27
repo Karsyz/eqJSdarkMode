@@ -1,0 +1,15 @@
+{
+    "name" : "Eloquent JS Darkmode Chrome Extension",
+    "version" : "0.0.1",
+    "manifest_version" : 3,
+    "description": "Styles Eloquent JS Book in darkmode",
+    "content_scripts": [
+        {
+            "js" : ["darkmode.js"],
+            "matches" : ["<all_urls>"]
+        }
+    ]
+}
+
+
+//karsy
